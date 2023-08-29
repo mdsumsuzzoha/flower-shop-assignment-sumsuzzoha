@@ -171,13 +171,20 @@ nav p {
 /* Feature section 2 start (HOT Deals salse Up*/
 .section-02 {
     width: 1440px;
+    height: 458px;
     margin: 0 auto;
     text-align: center;
     background-image: url("../images/rectangle9.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 122px 0;
+    background-size: contain;
+    /* padding-bottom: 120px; */
     margin: 128px auto;
+}
+
+.section-02-content {
+    padding-top: 80px;
+    /* padding-bottom: 116px; */
+
 }
 
 /* * Feature section 2 end */
@@ -202,6 +209,7 @@ nav p {
     width: 342px;
     background-color: #FFBD9D;
     margin-bottom: 50PX;
+    border-radius: 5px;
 }
 
 .order-img-card img {
@@ -212,9 +220,10 @@ nav p {
 }
 
 .order-btn {
-    font-size: 16px;
-    font-weight: 400;
-    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 600;
+    /* color: whitesmoke; */
+    color: cornsilk;
     position: relative;
     background: none;
     background-color: #D65FF7;
