@@ -13,7 +13,7 @@ header {
 nav {
     height: 850px;
     /* max-width: 1920px; */
-    background-image: url(/Flower_Asset/pngwing\ 10.png);
+    background-image: url(/images/pngwing\ 10.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
@@ -65,7 +65,7 @@ nav p {
 }
 
 /* Feature section */
-main {
+.section-01 {
     width: 1440px;
     margin: 0 auto;
     text-align: center;
@@ -143,4 +143,15 @@ main {
     height: 88px;
     width: 88px;
     margin: 24px 0;
+}
+
+.hot-deal-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E5547309;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 128px;
+    
 }
