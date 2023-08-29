@@ -17,7 +17,7 @@ header {
 nav {
     height: 850px;
     /* max-width: 1920px; */
-    background-image: url("/images/pngwing10.png");
+    background-image: url("../images/pngwing10.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
