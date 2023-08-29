@@ -22,7 +22,7 @@ body {
     background-color: #E55473;
     border: none;
     border-radius: 5px;
-    
+
 }
 
 
@@ -113,8 +113,8 @@ nav p {
     width: 310px;
     background-color: #A7216215;
     padding: 110px 76px 0;
-    border-top-right-radius: 45%;
-    border-top-left-radius: 45%;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
 }
 
 #fetured-img2 {
@@ -122,8 +122,8 @@ nav p {
     width: 310px;
     padding: 110px 76px 0;
     background-color: #0597A015;
-    border-top-right-radius: 45%;
-    border-top-left-radius: 45%;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
 }
 
 #fetured-img3 {
@@ -131,8 +131,8 @@ nav p {
     width: 310px;
     padding: 110px 76px 0;
     background-color: #477D1115;
-    border-top-right-radius: 45%;
-    border-top-left-radius: 45%;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
 }
 
 .img-name {
@@ -196,6 +196,7 @@ nav p {
 
 }
 
+/* order section (Extra section) start */
 .order-img-card {
     height: 480px;
     width: 342px;
@@ -221,6 +222,8 @@ nav p {
     border: none;
     border-radius: 5px;
 }
+
+/* order section (Extra section) end */
 
 /* * Social media section Start */
 
