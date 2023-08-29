@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.special-text-color{
+    color: #E55473;
+}
+
 /* Header section styles */
 header {
     background-color: #E5547310;
@@ -13,7 +17,7 @@ header {
 nav {
     height: 850px;
     /* max-width: 1920px; */
-    background-image: url(/images/pngwing\ 10.png);
+    background-image: url(/images/pngwing10.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: right;
@@ -69,6 +73,16 @@ nav p {
     width: 1440px;
     margin: 0 auto;
     text-align: center;
+}
+.section-02 {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(/images/rectangle9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 122px 0;
+    margin: 128px auto;
 }
 
 .title-name {
@@ -152,6 +166,51 @@ nav p {
     background-color: #E5547309;
     text-align: center;
     padding: 100px;
-    margin-bottom: 128px;
+    margin: 0 auto 128px;
+    /* margin-bottom: 128px; */
     
+}
+
+.insta-fetured-img-card{
+    height: 396px;
+    width: 342px;
+}
+
+.email-input{
+    height: 64px;
+    width: 700px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.footer-sec{
+    /* width: 1920px; */
+    margin: 0 auto;
+    text-align: center;
+    background-color: #111010;
+    padding: 128px 0;
+}
+.footer-desc h3{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.footer-desc p{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-size: 18px;
+    max-width: 594px;
+    margin: 0 auto 40px;
+}
+.footer-desc #copyrights{
+    color: #FFFFFF50;
+    margin-bottom: 24px;
+    font-size: 18px;
+    max-width: 594px;
+    margin: 0 auto 40px;
 }
